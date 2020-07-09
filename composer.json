@@ -1,15 +1,15 @@
 {
-    "name": "rivsen/hello-world",
+    "name": "funami/hello-world",
     "description": "this is a hello world repo for composer.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Rivsen Tan",
-            "email": "rivsen1003@gmail.com"
+            "name": "Dmitrij Rebrov",
+            "email": "dmitrij.rebrov@outlook.com"
         }
     ],
     "autoload": {
-        "psr-4": { "Rivsen\\Demo\\": "src" }
+        "psr-4": { "Funami\\Hello\\": "src" }
     },
     "require": {}
 }

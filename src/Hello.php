@@ -1,5 +1,5 @@
 <?php
-namespace Rivsen\Demo;
+namespace Funami\Hello;
 
 class Hello
 {

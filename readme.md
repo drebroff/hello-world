@@ -1,20 +1,19 @@
-# Hello World Package for PHP Composer #
+# Basic Hello World script for PHP Composer #
 
-This is a hello world package for php composer beginners tutorial.
-read more from http://rivsen.github.io/post/how-to-publish-package-to-packagist-using-github-and-composer-step-by-step/
+A package which returns "Hello World"
 
 ## Usage ##
 
 ```bash
 $ composer require rivsen/hello-world
-$ touch test.php
+$ touch index.php
 ```
 
 ```php
 <?php
 require_once "vendor/autoload.php";
 
-$hello = new Rivsen\Demo\Hello();
+$hello = new Funami\Hello\Hello();
 echo $hello->hello();
 ```
 
